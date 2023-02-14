@@ -169,7 +169,7 @@ elif [[ $OS == 'debian' ]]; then
 fi
 systemctl daemon-reload
 systemctl enable nginx
-fi
+
 # nginx configurations
 cat >/etc/nginx/conf.d/xray.conf <<EOF
     server {
