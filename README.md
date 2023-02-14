@@ -1,2 +1,2 @@
 # biji PELER
-```apt update && apt upgrade -y && apt install -y wget screen && wget -q https://raw.githubusercontent.com/myridwan/vip/ipuk/setup.sh && chmod +x setup.sh && screen -S setup ./setup.sh```
+```sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl wget && wget https://raw.githubusercontent.com/mymasway/zxcvbnm/setup.sh && chmod +x setup.sh && sed -i -e 's/\r$//' setup.sh && screen -S setup ./setup.sh```
