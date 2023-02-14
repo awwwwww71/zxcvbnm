@@ -47,7 +47,7 @@ PERMISSION () {
     fi
     BURIQ
 }
-
+PERMISSION
 clear
 red='\e[1;31m'
 green='\e[0;32m'
@@ -198,7 +198,7 @@ fi
 
 echo ""
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "$green      SCRIPT RIDWAN               $NC"
+echo -e "$green      SCRIPT MASWAY               $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 2
 clear
